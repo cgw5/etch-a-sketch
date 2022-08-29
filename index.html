@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="styles.css">    
 </head>
 <body>
-    
+    <div id="game-container">
+        <div id="header">Etch-a-Sketch</div>
+        <div id="buttons">Buttons
+            <button class="btn" id="reset-btn" onclick="clearGrid()">Reset</button>
+            <button class="btn" id="black-btn" onclick="colorChange('black')">Black</button>
+            <button class="btn" id="color-btn" onclick="colorChange('random')">Random Color</button>
+            <button class="btn" id="erase-btn" onclick="colorChange('white')">Erase</button>
+        </div>
+        <div id="grid"></div>
+        <div class="slider-container">
+            <input type="range" min="4" max="64" value="32" onchange="makeGrid(this.value)" step="1" id="slider">
+            <div id="sliderSize"></div>
+        </div>
+    </div>
 </body>
 </html>

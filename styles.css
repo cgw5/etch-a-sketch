@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: blueviolet;
+}
+#header {
+    background-color: red;
+}
+#buttons {
+    background-color: green;
+}
+#grid {
+    background-color: honeydew;
+    width: 60vmin;
+    height: 60vmin;
+    display: grid;
+}
+
+.on {
+    background-color: hsl(200, 100%, 50%);
+    border: .25vh solid black;
+}
+
+.off {
+    background-color: lightgrey;
+    border: 25vh solid rgb(127, 124, 131)
+}
+
+.slider-container {
+    align-items: center;
+    width: 100%;
+}
+

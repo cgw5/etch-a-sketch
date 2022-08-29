@@ -37,10 +37,10 @@ body {
     height: 60vmin;
     display: grid;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* border: thick solid black; */
 }
 
 #slider {
+    margin-top: 20px;
     width: 100%;
 }
 
